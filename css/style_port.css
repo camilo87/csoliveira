@@ -1,0 +1,396 @@
+@charset "UTF-8";
+body {
+  font: 16px/24px "IBM Plex Sans", "Lato", Arial, sans-serif;
+  font-weight: 400;
+  color: #000;
+  margin: 0;
+  border-top: 24px solid #479E2D;
+  background-color: #fff;
+  box-sizing: content-box;
+  max-width: 100%;
+  overflow-x: hidden; }
+  body ::selection {
+    background-color: #479E2D;
+    color: #fff; }
+  body.study .aboutme {
+    float: right;
+    line-height: 20px; }
+  body.study a:hover, body.study a:active {
+    text-decoration: none; }
+  body .content {
+    width: 100vw;
+    margin: 0 auto;
+    /*header*/ }
+    body .content header .wrapper, body .content main .wrapper, body .content footer .wrapper {
+      padding: 0 16px 40px;
+      max-width: 904px;
+      width: calc(100% - 32px);
+      margin: 0 auto; }
+    body .content header h1 {
+      font-family: "Lato";
+      color: #479E2D;
+      letter-spacing: -0.1px;
+      font-weight: 300;
+      font-size: 16px;
+      margin-top: 0;
+      margin-bottom: 60px; }
+    body .content header h2, body .content header p {
+      font-family: "Lato";
+      color: #000;
+      letter-spacing: -0.1px;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 32px; }
+    body .content header h5 {
+      font-family: "Lato";
+      color: #479E2D;
+      text-transform: uppercase;
+      margin: 60px 0 0; }
+    body .content header .aboutme {
+      margin-top: 0;
+      margin-bottom: 60px; }
+      body .content header .aboutme a {
+        color: #479E2D; }
+    body .content header a {
+      color: #479E2D; }
+      body .content header a:hover, body .content header a:active {
+        text-decoration: underline; }
+    body .content header .back {
+      background: url("../img/header_back.png") no-repeat 0 0;
+      height: 22px;
+      display: block;
+      line-height: 19px; }
+      body .content header .back a {
+        padding-left: 24px; }
+    body .content header p, body .content header li {
+      font-weight: 300;
+      margin-bottom: 0; }
+    body .content header ul {
+      margin: 0;
+      padding: 0; }
+      body .content header ul li {
+        list-style: none; }
+        body .content header ul li ::selection {
+          background-color: #479E2D;
+          color: #fff; }
+        body .content header ul li a {
+          color: #000;
+          line-height: 2; }
+          body .content header ul li a.phone span {
+            font-size: 12px; }
+    body .content main section {
+      margin-bottom: 60px;
+      display: grid; }
+      body .content main section:nth-child(odd) {
+        background-color: #F5F5F5; }
+        body .content main section:nth-child(odd) .work .about .case-study {
+          background-color: #fff; }
+      body .content main section .rating {
+        width: 100%;
+        max-width: 577px; }
+      body .content main section:last-child {
+        margin-bottom: 0; }
+      body .content main section.internal {
+        background-color: transparent; }
+        body .content main section.internal .hero-img {
+          margin: 0 auto; }
+        body .content main section.internal.expanded {
+          background-color: #F5F5F5; }
+        body .content main section.internal .case .pic-immersion {
+          display: none; }
+        body .content main section.internal .case a.prototype {
+          background-color: #479E2D;
+          color: #fff;
+          transition: background-color 0.1s ease;
+          padding: 12px 57px;
+          text-decoration: none;
+          font-weight: 900;
+          font-size: 14px; }
+          body .content main section.internal .case a.prototype:hover, body .content main section.internal .case a.prototype:active {
+            background-color: #F5F5F5;
+            color: #000;
+            transition: background-color 0.1s ease; }
+        body .content main section.internal .case .copy {
+          width: 100%;
+          max-width: 420px; }
+          body .content main section.internal .case .copy h3 {
+            font-family: "Lato";
+            margin-top: 60px; }
+          body .content main section.internal .case .copy p {
+            margin-bottom: 30px; }
+          body .content main section.internal .case .copy ol, body .content main section.internal .case .copy ul {
+            counter-reset: zero-counter;
+            list-style: none;
+            padding: 0;
+            max-width: 521px; }
+            body .content main section.internal .case .copy ol li, body .content main section.internal .case .copy ul li {
+              counter-increment: zero-counter;
+              font-family: "Lato";
+              font-weight: 300;
+              padding: 10px;
+              display: flex;
+              margin-bottom: 16px; }
+              body .content main section.internal .case .copy ol li::before, body .content main section.internal .case .copy ul li::before {
+                content: "0" counter(zero-counter);
+                font-weight: 900;
+                margin-right: 40px; }
+              body .content main section.internal .case .copy ol li:nth-child(even), body .content main section.internal .case .copy ul li:nth-child(even) {
+                background-color: #F5F5F5; }
+              body .content main section.internal .case .copy ol li strong, body .content main section.internal .case .copy ul li strong {
+                display: inline-block; }
+          body .content main section.internal .case .copy ul {
+            list-style: disc; }
+            body .content main section.internal .case .copy ul li {
+              counter-increment: none; }
+              body .content main section.internal .case .copy ul li::before {
+                content: '•'; }
+              body .content main section.internal .case .copy ul li strong {
+                font-weight: 900;
+                margin-left: 5px; }
+          body .content main section.internal .case .copy .structure {
+            margin-top: 120px; }
+            body .content main section.internal .case .copy .structure:first-child {
+              margin-top: 120px; }
+        body .content main section.internal .case .screenshots {
+          display: block; }
+          body .content main section.internal .case .screenshots img {
+            width: 100%;
+            max-width: 261px; }
+          body .content main section.internal .case .screenshots.research-prints p span {
+            display: block;
+            font-size: 16px;
+            color: #B3B3B3; }
+          body .content main section.internal .case .screenshots.thirds figure {
+            margin: 0 auto 60px;
+            padding: 0;
+            max-width: 261px; }
+            body .content main section.internal .case .screenshots.thirds figure figcaption {
+              text-align: center;
+              font-size: 14px;
+              font-family: "Lato"; }
+        body .content main section.internal .case .learnings {
+          margin-top: 120px; }
+        body .content main section.internal .hero-screenshots img {
+          display: block;
+          width: 100%;
+          /*&:first-child {margin-left: -134px;}*/ }
+      body .content main section h4 {
+        font-family: "Lato";
+        font-weight: 900;
+        font-size: 12px;
+        color: #000;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        margin-bottom: 0; }
+        body .content main section h4 span {
+          color: #B3B3B3;
+          margin-left: 24px; }
+      body .content main section p {
+        font-family: "Lato";
+        font-weight: 300;
+        margin-top: 8px;
+        width: 100%;
+        max-width: 420px;
+        line-height: 1.8; }
+      body .content main section .work {
+        margin-top: 120px; }
+        body .content main section .work img {
+          width: 100%;
+          max-width: 582px;
+          transition: opacity 0.3s ease; }
+          body .content main section .work img:hover {
+            opacity: 0.8;
+            transition: opacity 0.3s ease; }
+        body .content main section .work .about h3 a {
+          font-size: 24px;
+          font-weight: 700;
+          font-family: "IBM Plex Sans";
+          color: #000;
+          text-decoration: none;
+          transition: color 0.1s ease; }
+          body .content main section .work .about h3 a:hover, body .content main section .work .about h3 a:active {
+            color: #479E2D;
+            transition: color 0.1s ease; }
+        body .content main section .work .about .case-study {
+          display: none; }
+        body .content main section .work .about.large {
+          display: none; }
+      body .content main section .case h1 {
+        margin-top: 0; }
+      body .content main section .case h2 {
+        color: #B3B3B3;
+        font-family: "Lato";
+        font-weight: 900;
+        font-size: 12px;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        margin-bottom: 0; }
+      body .content main section .hero-img img {
+        width: 100%;
+        max-width: 904px; }
+      body .content main section .featured-work {
+        margin: 0 auto 120px;
+        text-align: center; }
+        body .content main section .featured-work h4 {
+          margin-top: 60px;
+          color: #479E2D; }
+        body .content main section .featured-work p {
+          font-size: 16px;
+          line-height: 1.5;
+          max-width: 500px;
+          margin: 0 auto; }
+        body .content main section .featured-work img {
+          width: 100%;
+          max-width: 750px;
+          margin: 0 auto; }
+    body .content footer {
+      background-color: #F5F5F5;
+      padding-top: 30px; }
+      body .content footer ul {
+        margin-left: 0;
+        padding-left: 0; }
+        body .content footer ul li {
+          line-height: 32px;
+          list-style: none;
+          color: #B3B3B3;
+          /*opacity: 0.4;*/
+          font-size: 14px; }
+          body .content footer ul li a {
+            color: #000;
+            font-size: 14px;
+            opacity: 1; }
+            body .content footer ul li a:hover, body .content footer ul li a:active {
+              color: #479E2D; }
+            body .content footer ul li a span {
+              font-size: 11px; }
+      body .content footer .contact {
+        margin-top: 30px; }
+        body .content footer .contact ul li a {
+          color: #B3B3B3; }
+
+@media (min-width: 768px) {
+  body .content header a {
+    text-decoration: underline; }
+    body .content header a:hover, body .content header a:active {
+      text-decoration: none; }
+  body .content header .wrapper, body .content main .wrapper, body .content footer .wrapper {
+    padding: 40px 60px;
+    max-width: 904px;
+    width: 100%; }
+  body .content header .copy {
+    max-width: 64%; }
+  body .content header h1, body .content header p, body .content header ul li {
+    font-size: 21px;
+    line-height: 32px; }
+    body .content header h1 a.phone, body .content header p a.phone, body .content header ul li a.phone {
+      text-decoration: none; }
+      body .content header h1 a.phone span, body .content header p a.phone span, body .content header ul li a.phone span {
+        font-size: 16px; }
+  body .content header .aboutme {
+    margin-top: 21px;
+    margin-bottom: 0; }
+  body .content main section h4 span {
+    margin-left: 30px; }
+  body .content main section p {
+    font-size: 21px;
+    line-height: 32px; }
+    body .content main section p a {
+      color: #479E2D; }
+      body .content main section p a:hover, body .content main section p a:active {
+        text-decoration: none; }
+  body .content main section .work {
+    display: block;
+    margin-bottom: 60px;
+    overflow: hidden; }
+    body .content main section .work.left .about {
+      float: right; }
+    body .content main section .work.right .img {
+      float: right;
+      display: inline-block; }
+    body .content main section .work .img {
+      max-width: 64%;
+      height: 364px; }
+    body .content main section .work .about {
+      max-width: 30%;
+      display: inline-block;
+      border-top: 4px solid #479E2D; }
+      body .content main section .work .about .case-study {
+        display: inline;
+        background-color: #F5F5F5;
+        font-weight: 900;
+        font-size: 14px;
+        color: #000;
+        padding: 13px 52px;
+        cursor: pointer;
+        margin-bottom: 30px;
+        transition: background-color 0.1s ease;
+        text-decoration: none; }
+        body .content main section .work .about .case-study:hover, body .content main section .work .about .case-study:active {
+          background-color: #479E2D;
+          color: #fff;
+          transition: background-color 0.1s ease; }
+      body .content main section .work .about.large {
+        display: block; }
+      body .content main section .work .about.about-mobile {
+        display: none; }
+  body .content main section.internal .hero-screenshots {
+    /*img:first-child {margin-left: -134px;}*/ }
+    body .content main section.internal .hero-screenshots img {
+      width: 100%;
+      max-width: 1357px;
+      margin: 0 auto; }
+    body .content main section.internal .hero-screenshots.smaller img {
+      max-width: 1100px; }
+  body .content main section.internal .case {
+    /*.screenshots*/ }
+    body .content main section.internal .case .pic-immersion {
+      background: no-repeat 0 0;
+      width: 100%;
+      height: 348px;
+      max-width: 261px;
+      display: inline-block;
+      float: right; }
+      body .content main section.internal .case .pic-immersion p {
+        margin-top: 350px;
+        text-align: center;
+        font-size: 14px; }
+      body .content main section.internal .case .pic-immersion.collectors {
+        background-image: url("../img/work_collectors_immersion.png"); }
+      body .content main section.internal .case .pic-immersion.guardians {
+        background-image: url("../img/work_guardians_immersion.png"); }
+    body .content main section.internal .case h3 {
+      margin-bottom: 0; }
+    body .content main section.internal .case .screenshots {
+      display: table;
+      margin: 60px auto; }
+      body .content main section.internal .case .screenshots img, body .content main section.internal .case .screenshots video {
+        width: auto;
+        max-width: 261px;
+        display: table-cell;
+        margin-right: 60px; }
+      body .content main section.internal .case .screenshots p {
+        display: table-cell;
+        vertical-align: middle;
+        width: 440px; }
+      body .content main section.internal .case .screenshots.right img, body .content main section.internal .case .screenshots.right video {
+        float: right;
+        margin-right: 0;
+        margin-left: 60px; }
+      body .content main section.internal .case .screenshots.grouped img {
+        display: inline-block;
+        margin-right: 0; }
+      body .content main section.internal .case .screenshots.pairs img {
+        max-width: 420px; }
+      body .content main section.internal .case .screenshots.thirds img {
+        max-width: 261px;
+        margin-right: 40px; }
+      body .content main section.internal .case .screenshots.thirds figure {
+        margin: 0 40px 0 0;
+        display: inline-block;
+        margin-bottom: 60px; }
+      body .content main section.internal .case .screenshots.research-prints img {
+        max-width: 570px; }
+      body .content main section.internal .case .screenshots.large img, body .content main section.internal .case .screenshots.large video {
+        max-width: 420px; }
+  body .content main section.internal.expanded .case .screenshots {
+    /*p {width: 440px;}*/ } }
