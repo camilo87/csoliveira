@@ -10,8 +10,5 @@
   },
   "dependencies": {
     "lodash": "^4.17.15"
-  },
-  "scripts": {
-    "build": "next build"
   }
 }
