@@ -112,7 +112,7 @@ body {
             transition: background-color 0.1s ease; }
         body .content main section.internal .case .copy {
           width: 100%;
-          max-width: 420px; }
+          max-width: 500px; }
           body .content main section.internal .case .copy h3 {
             font-family: "Lato";
             margin-top: 60px; }
@@ -190,7 +190,7 @@ body {
         font-weight: 300;
         margin-top: 8px;
         width: 100%;
-        max-width: 420px;
+        max-width: 550px;
         line-height: 1.8; }
       body .content main section .work {
         margin-top: 120px; }
@@ -390,7 +390,9 @@ body {
         margin-bottom: 60px; }
       body .content main section.internal .case .screenshots.research-prints img {
         max-width: 570px; }
-      body .content main section.internal .case .screenshots.large img, body .content main section.internal .case .screenshots.large video {
+      body .content main section.internal .case .screenshots.large img {
+        max-width: 500px; }
+      body .content main section.internal .case .screenshots.large video {
         max-width: 420px; }
   body .content main section.internal.expanded .case .screenshots {
     /*p {width: 440px;}*/ } }

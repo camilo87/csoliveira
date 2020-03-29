@@ -191,7 +191,7 @@ overflow-x: hidden;
 
 						.copy {
 							width: 100%;
-							max-width: 420px;
+							max-width: 500px;
 
 							h3 {font-family: $display; margin-top: 60px;}
 							p {margin-bottom: 30px;}
@@ -312,7 +312,7 @@ overflow-x: hidden;
 					font-weight: 300;
 					margin-top: 8px;
 					width: 100%;
-					max-width: 420px;
+					max-width: 550px;
 					line-height: 1.8;
 				}
 
@@ -684,7 +684,11 @@ overflow-x: hidden;
 								}
 
 								&.large {
-									img, video {
+									img {
+										max-width: 500px;
+									}
+
+									video {
 										max-width: 420px;
 									}
 								}
