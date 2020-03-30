@@ -1,2 +1,4 @@
 .now
-Node-modules
+node_modules
+.DS_Store
+css/.DS_Store
