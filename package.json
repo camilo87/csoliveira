@@ -2,13 +2,16 @@
   "name": "my-project-name",
   "version": "0.1.0",
   "devDependencies": {
-    "grunt": "^0.4.5",
+    "grunt": "^1.1.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-sass": "^3.0.2",
     "load-grunt-tasks": "^5.0.0",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   },
   "dependencies": {
     "lodash": "^4.17.15"
+  },
+  "resolutions": {
+    "minimist": "^1.2.3"
   }
 }
