@@ -9,7 +9,7 @@
     "node-sass": "^4.13.1"
   },
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   },
   "resolutions": {
     "minimist": "^1.2.3"
