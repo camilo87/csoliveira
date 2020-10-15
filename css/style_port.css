@@ -151,6 +151,10 @@ body {
             margin-top: 120px; }
             body .content main section.internal .case .copy .structure:first-child {
               margin-top: 120px; }
+          body .content main section.internal .case .copy.expansion {
+            margin: 100px 0 0; }
+            body .content main section.internal .case .copy.expansion p {
+              margin-bottom: 0; }
         body .content main section.internal .case .screenshots {
           display: block; }
           body .content main section.internal .case .screenshots img {
@@ -174,6 +178,9 @@ body {
           display: block;
           width: 100%;
           /*&:first-child {margin-left: -134px;}*/ }
+        body .content main section.internal .hero-screenshots figcaption {
+          text-align: center;
+          color: #B3B3B3; }
       body .content main section h4 {
         font-family: "Lato";
         font-weight: 900;
