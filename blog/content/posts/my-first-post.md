@@ -12,3 +12,4 @@ Pra isso também preciso cuidar dos meus negócios. Hoje tenho um trabalho integ
 - Trabalhar meio período para mais empresas até que o fluxo de clientes seja grande o suficiente pra ser minha ocupação principal?
 - Será que isso de repente pode virar mentoria de produto ou encubação de negócios que vão sair desses trabalhos? (como um estúdio de produtos ou mesmo de startups)
 - Que outras opções eu tenho além de um emprego e salário fixos?
+- Será?
