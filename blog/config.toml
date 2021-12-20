@@ -1,4 +1,35 @@
-baseURL = "http://example.org/"
+baseURL = ""
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+title = "Camilo Oliveira Blog"
+theme = "ink"
+disableKinds = ["home"]
+staticDir = ["static/", "static2"]
+
+[permalinks]
+  posts = "blog/:title"
+
+[params]
+  author = "Camilo Oliveira"
+  description = "As a product designer, I do my work through research and product design. Here I write learnings about creating software, working in teams, business, and everything that interacts with it, including some personal stuff."
+  mode = "auto"
+
+[[menu.main]]
+name = "Portfolio"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Writing"
+url = "/writing"
+class = "active"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Now"
+url = "/now.html"
+weight = 4
